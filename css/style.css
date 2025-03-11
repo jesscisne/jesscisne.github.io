@@ -104,6 +104,10 @@
     
 }
 
+.metade1 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .metade2 {
     width: 350px;
     height: auto;
@@ -114,6 +118,11 @@
     line-height: 1.5;
     font-size: 18px;
 
+}
+
+.metade2 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -535,7 +544,24 @@ section {
     width:90%;
 }
 
+.metade2 img {
+    width: 350px;
+    height: 316px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    object-fit: contain;
+}
 
+.metade1 img {
+    width: 350px;
+    height: 316px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    object-fit: contain;
+}
+.duasMetades {
+    display: flex;
+}
 
 
 
