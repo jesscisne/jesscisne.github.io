@@ -236,11 +236,13 @@ h2{
     padding: .5rem;
     transition: transform .3s;
     width: 100%;
+    cursor: pointer;
 
 }
 
 .turmasPrincipal .menuTurmas:hover{
     transform: translateY(-5px);
+    
 }
 
 .turmasPrincipal .menuTurmas h3 {
@@ -278,6 +280,7 @@ h2{
     width: 100px;
     height: 90px;
     
+    
 
 }
 
@@ -304,6 +307,7 @@ h2{
     box-shadow: 0 3px 10px #0000001a;
     border-radius: 10px;
     padding: .5rem;
+    cursor: pointer;
 
     
 
@@ -577,7 +581,14 @@ section {
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
+.saibaMais  {
+    text-decoration: none;
+    color:#D40C4Bff
+}
 
 
 
