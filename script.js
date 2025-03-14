@@ -15,5 +15,5 @@ convida.addEventListener("click",function(){
 
 var noite = document.getElementById("noite")
 noite.addEventListener("click",function(){
-    window.location.href = "acoes.html"
+    window.location.href = "acoes.html#noiteCanta"
 })
