@@ -590,7 +590,10 @@ html{
     color:#D40C4Bff
 }
 
-
+iframe {
+    border: none; /* Remove a borda */
+    outline: none; /* Garante que não fique com contorno */
+}
 
 
 
