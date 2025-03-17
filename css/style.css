@@ -223,6 +223,7 @@ h2{
     padding: 2rem;
     display: flex;
     background-color: white;
+    padding-bottom: 0px;
     
 }
 
@@ -571,6 +572,10 @@ section {
     text-align: center;
 }
 
+.clipe h3 {
+    text-align: center;
+}
+
 .caixaClipe {
     width: 500px;
     
@@ -599,6 +604,35 @@ iframe {
     margin-top: 10px;
 }
 
+.botoesInscricao {
+    width: 930px;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 2rem;
+    display: flex;
+    background-color: white;
+    padding-top: 0px;
+}
+
+.inscricaoBotao {
+    display: block; 
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding:.5rem;
+    transition: transform .3s;
+    width: 100%;
+    text-align: center;
+    
+   
+}
+
+.inscricaoBotao a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #D40C4Bff;
+    text-decoration: none;
+    
+}
 
 
  
