@@ -1,19 +1,37 @@
 var sobralTurmas = document.getElementById("sobralTurmas") 
-sobralTurmas.addEventListener("click",function(){
-    window.location.href = "turmas.html"
-}) 
+if (sobralTurmas != null) {
+    sobralTurmas.addEventListener("click",function(){
+        window.location.href = "turmas.html"
+    
+    }) 
+}
+
 
 var remotaTurmas = document.getElementById("remotaTurmas")
-remotaTurmas.addEventListener("click",function(){
-    window.location.href = "turmas.html"
-})
+if (remotaTurmas != null) {
+    remotaTurmas.addEventListener("click",function(){
+        window.location.href = "turmas.html"
+    })
+}
 
 var convida = document.getElementById("convida")
-convida.addEventListener("click",function(){
-    window.location.href = "acoes.html"
-})
+if (convida != null) {
+    convida.addEventListener("click",function(){
+         window.location.href = "acoes.html"
+    })
+}
 
 var noite = document.getElementById("noite")
-noite.addEventListener("click",function(){
-    window.location.href = "acoes.html#noiteCanta"
-})
+if (noite != null) {
+    noite.addEventListener("click",function(){
+        window.location.href = "acoes.html#noiteCanta"
+    })
+}
+
+var logo = document.getElementById("logo")
+if (logo != null) {
+    logo.addEventListener("click", function(){
+    console.log("deu certo")
+        window.location.href = "index.html"
+    })
+}
