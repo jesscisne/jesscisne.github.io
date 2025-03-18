@@ -93,6 +93,11 @@
 
 }
 
+.paragrafo p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 .metade1 {
     width: 350px;
     height: auto;
@@ -574,6 +579,9 @@ section {
 
 .clipe h3 {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
 }
 
 .caixaClipe {
@@ -617,12 +625,15 @@ iframe {
 .inscricaoBotao {
     display: block; 
     background-color: white;
-    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 10px;
     padding:.5rem;
     transition: transform .3s;
     width: 100%;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     
    
 }
