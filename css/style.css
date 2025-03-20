@@ -107,27 +107,31 @@
     line-height: 1.5;
     font-size: 18px;
     
+    
 }
 
 .metade1 p {
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 2;
 }
 .metade2 {
     width: 350px;
     height: auto;
     /* border: 2px black solid; */
     margin-left: auto;
-    padding: 50px;
+    padding: 20px;
     text-align: justify;
     line-height: 1.5;
     font-size: 18px;
+    
 
 }
 
 .metade2 p {
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 2;
 }
 
 
@@ -560,6 +564,9 @@ section {
     padding-top: 4px;
     padding-bottom: 4px;
     object-fit: contain;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .metade1 img {
@@ -568,6 +575,9 @@ section {
     padding-top: 4px;
     padding-bottom: 4px;
     object-fit: contain;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .duasMetades {
     display: flex;
@@ -647,6 +657,24 @@ iframe {
     
 }
 
+.swiper-container {
+    width: 300px; /* Largura do carrossel */
+    height: 425px; /* Altura do carrossel */
+    overflow: hidden;
+    
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Cantos arredondados */
+    transition-timing-function: linear;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+    
+}
 
  
 

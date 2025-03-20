@@ -35,3 +35,18 @@ if (logo != null) {
         window.location.href = "index.html"
     })
 }
+
+var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical', // Define a rolagem como vertical
+    loop: true, // Ativa o loop infinito
+    autoplay: {
+        delay: 0, // Troca de imagem a cada 2 segundos
+        disableOnInteraction: false, // Continua rodando mesmo se o usuário interagir
+    },
+    speed: 3000, // Velocidade da animação (1 segundo)
+    slidesPerView: 2, // Mostra 2 imagens ao mesmo tempo
+    // spaceBetween: 5, // Espaço entre os slides
+    allowTouchMove: false, // Bloqueia o arrastar manual para não interromper o loop
+    
+});
+
