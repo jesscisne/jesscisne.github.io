@@ -676,5 +676,35 @@ iframe {
     
 }
 
+.imagemTurma {
+    width: 930px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
  
+.imagemTurma img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.imagemTurma2 {
+    width: 930px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagemTurma2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
 
