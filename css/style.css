@@ -50,7 +50,7 @@
     font-weight: bold;
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .cabecalho h3 {
@@ -91,6 +91,24 @@
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
 
+}
+
+.paragrafo1 {
+    width:930px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+
+}
+
+.paragrafo1 p {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .paragrafo p {
@@ -691,6 +709,21 @@ iframe {
     height: auto;
     margin-top: 10px;
 }
+.imagemTurma1 {
+    width: 800px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.imagemTurma1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
 
 .imagemTurma2 {
     width: 930px;
@@ -708,3 +741,18 @@ iframe {
     margin-top: 10px;
 }
 
+.imagemTurma3 {
+    width: 500px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagemTurma3 img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
