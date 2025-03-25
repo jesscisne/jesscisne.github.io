@@ -655,7 +655,7 @@ iframe {
 .inscricaoBotao {
     display: block; 
     background-color: white;
-    margin-top: 5px;
+    margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
     padding:.5rem;
@@ -666,6 +666,26 @@ iframe {
     margin-left: auto;
     
    
+}
+
+.inscricaoBotao2 {
+    display: block; 
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding:.5rem;
+    transition: transform .3s;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inscricaoBotao2 a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #D40C4Bff;
+    text-decoration: none;
 }
 
 .inscricaoBotao a {
@@ -726,7 +746,7 @@ iframe {
 }
 
 .imagemTurma2 {
-    width: 930px;
+    width: 850px;
     height: 400px;
     overflow: hidden;
     border-radius: 4px;
