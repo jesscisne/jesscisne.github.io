@@ -50,3 +50,9 @@ var swiper = new Swiper('.swiper-container', {
     
 });
 
+var turmaOnline = document.getElementById("remotaTurmas")
+if (turmaOnline != null) {
+    turmaRemota.addEventListener("click",function(){
+        window.location.href = "turmas.html#turmaRemota"
+    })
+}
