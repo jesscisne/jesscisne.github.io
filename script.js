@@ -10,7 +10,7 @@ if (sobralTurmas != null) {
 var remotaTurmas = document.getElementById("remotaTurmas")
 if (remotaTurmas != null) {
     remotaTurmas.addEventListener("click",function(){
-        window.location.href = "turmas.html"
+        window.location.href = "turmas.html#turmaRemota"
     })
 }
 
@@ -49,10 +49,3 @@ var swiper = new Swiper('.swiper-container', {
     allowTouchMove: false, // Bloqueia o arrastar manual para não interromper o loop
     
 });
-
-var turmaOnline = document.getElementById("remotaTurmas")
-if (turmaOnline != null) {
-    turmaRemota.addEventListener("click",function(){
-        window.location.href = "turmas.html#turmaRemota"
-    })
-}
